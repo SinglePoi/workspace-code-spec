@@ -1,0 +1,30 @@
+{
+  "editor.formatOnSave": true, // 保存时格式化
+  "eslint.enable": true, // 是否开启 VSCode 的 ESLint 插件，默认为 true
+  // 所有 ESLint 插件的可自动修复的错误都将在保存时被修复
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.probe": [ //指定需要校验的文件类型，是新的配置项
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "json",
+    "jsonc"
+  ],
+  "eslint.validate": [ //指定需要校验的文件类型，是旧的配置项
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "json",
+    "jsonc"
+  ],
+}
